@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>start</ion-title>
+    <ion-title>Estudiante</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -17,19 +17,19 @@
   </ion-card>
   <ion-list lines="none">
     <ion-list-header>
-      <ion-label>Recursos</ion-label>
+      <ion-label>Iniciar Sesión</ion-label>
     </ion-list-header>
-    <ion-item href="https://ionicframework.com/docs/">
-      <ion-icon slot="start" color="medium" name="logo-ionic"></ion-icon>
-      <ion-label>Ionic</ion-label>
+    <ion-item>
+      <ion-input placeholder="Código estudiantil" clear-input="true" style="background:#F4FFF9"></ion-input>
     </ion-item>
-    <ion-item href="https://flutter.dev/docs">
-      <ion-icon slot="start" color="medium" name="arrow-dropleft"></ion-icon>
-      <ion-label>Flutter</ion-label>
+    <ion-item>
+      <ion-input placeholder="Contraseña" clear-input="true" type="password" style="background:#F4FFF9"></ion-input>
     </ion-item>
-    <ion-item href="https://developer.android.com/docs">
-      <ion-icon slot="start" color="medium" name="logo-android"></ion-icon>
-      <ion-label>Android</ion-label>
-    </ion-item>
+      <ion-button expand="block" color="secondary" type="submit">Ingresar</ion-button>
+      <ion-item href="">
+          <ion-icon slot="start" color="medium" name="person-add"></ion-icon>
+          <ion-label>Regístrate</ion-label>
+          <ion-card-subtitle>¿No tienes usuario?</ion-card-subtitle>
+        </ion-item>
   </ion-list>
 </ion-content>
