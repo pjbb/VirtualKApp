@@ -13,6 +13,39 @@ export class HomeStudentPage implements OnInit {
   ngOnInit() {
   }
 
+  public appPages = [
+    {
+      title: 'Inicio',
+      url: '/home',
+      icon: 'home'
+    },
+    {
+      title: 'General',
+      url: '/list',
+      icon: 'book'
+    },
+    {
+      title: 'Presentaciones',
+      icon: 'desktop'
+    },
+    {
+      title: 'Herramientas',
+      icon: 'construct'
+    },
+    {
+      title: 'Entregas',
+      icon: 'folder'
+    },
+    {
+      title: 'Talleres',
+      icon: 'create'
+    },
+    {
+      title: 'OVAs',
+      icon: 'videocam'
+    }
+  ];
+
   openFirst() {
     this.menu.enable(true, 'one');
     this.menu.open('one');
