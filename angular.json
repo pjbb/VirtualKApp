@@ -5,7 +5,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "app": {
-      "root": "",
+      "root": "home-student",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",

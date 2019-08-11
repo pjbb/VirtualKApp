@@ -16,8 +16,12 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   { path: 'start', loadChildren: './components/students/start/start.module#StartPageModule' },
-  { path: 'inicio', loadChildren: './components/teachers/inicio/inicio.module#InicioPageModule' },  { path: 'home-teacher', loadChildren: './components/teachers/home-teacher/home-teacher.module#HomeTeacherPageModule' },
-  { path: 'home-student', loadChildren: './components/students/home-student/home-student.module#HomeStudentPageModule' }
+  { path: 'inicio', loadChildren: './components/teachers/inicio/inicio.module#InicioPageModule' },
+  { path: 'home-teacher', loadChildren: './components/teachers/home-teacher/home-teacher.module#HomeTeacherPageModule' },
+  { path: 'home-student', loadChildren: './components/students/home-student/home-student.module#HomeStudentPageModule'},
+  { path: 'a', loadChildren: './components/students/home-student/prueba/prueba.module#PruebaPageModule' },
+
+
 
 
 ];
