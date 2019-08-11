@@ -43,6 +43,14 @@ export class AppComponent {
     }
   ];
 
+  public paginas = [
+    {
+      title: 'Inicio',
+      url: '/home',
+      icon: 'home'
+    }
+  ];
+
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
