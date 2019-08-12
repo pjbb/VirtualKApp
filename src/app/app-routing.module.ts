@@ -20,6 +20,8 @@ const routes: Routes = [
   { path: 'home-teacher', loadChildren: './components/teachers/home-teacher/home-teacher.module#HomeTeacherPageModule' },
   { path: 'home-student', loadChildren: './components/students/home-student/home-student.module#HomeStudentPageModule'},
   { path: 'a', loadChildren: './components/students/home-student/prueba/prueba.module#PruebaPageModule' },
+  { path: 'tutoriales', loadChildren: './components/students/home-student/tutoriales/tutoriales.module#TutorialesPageModule' },
+
 
 
 
