@@ -3,7 +3,7 @@
       <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-    <ion-title>Prueba</ion-title>
+    <ion-title>Estudiantes</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -18,7 +18,25 @@
           <p>Esta será la sección de inicio de sesión para los estudiantes.</p>
         </ion-card-content>
       </ion-card>
-      <ion-button (click)="openCustom()">hola</ion-button>
-
-      <ion-button>jaja</ion-button>
+      <ion-list lines="none">
+        <ion-list-header>
+          <ion-label>Herramientas</ion-label>
+        </ion-list-header>
+        <ion-item routerLink="">
+          <ion-icon slot="start" color="medium" name="filing"></ion-icon>
+          <ion-label>Mis Cursos</ion-label>
+        </ion-item>
+        <ion-item routerLink="/tutoriales">
+          <ion-icon slot="start" color="medium" name="tv"></ion-icon>
+          <ion-label>Tutoriales</ion-label>
+        </ion-item>
+        <ion-item routerLink="">
+          <ion-icon slot="start" color="medium" name="school"></ion-icon>
+          <ion-label>Servicios Académicos</ion-label>
+        </ion-item>
+        <ion-item routerLink="">
+          <ion-icon slot="start" color="medium" name="person"></ion-icon>
+          <ion-label>Servicios Administrativos</ion-label>
+        </ion-item>
+      </ion-list>
 </ion-content>
