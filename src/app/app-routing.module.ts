@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'home-student', loadChildren: './components/students/home-student/home-student.module#HomeStudentPageModule'},
   { path: 'a', loadChildren: './components/students/home-student/prueba/prueba.module#PruebaPageModule' },
   { path: 'tutoriales', loadChildren: './components/students/home-student/tutoriales/tutoriales.module#TutorialesPageModule' },  { path: 'cursos', loadChildren: './components/students/home-student/cursos/cursos.module#CursosPageModule' },
+  { path: 'servicios-academicos', loadChildren: './components/students/home-student/servicios-academicos/servicios-academicos.module#ServiciosAcademicosPageModule' },
 
 
 
